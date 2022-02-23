@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label layoutX="28.0" layoutY="150.0" text="Resultado" />
+      <Label fx:id="labelResultado" layoutX="94.0" layoutY="149.0" prefHeight="18.0" prefWidth="46.0" />
+      <TextField fx:id="txtNum1" layoutX="28.0" layoutY="30.0" promptText="Digite o primeiro número" />
+      <TextField fx:id="txtNum2" layoutX="28.0" layoutY="71.0" promptText="Digite o segundo número" />
+      <Button fx:id="btSoma" layoutX="57.0" layoutY="111.0" mnemonicParsing="false" onAction="#onBtSomaAction" text="Soma" />
+   </children>
+</AnchorPane>
